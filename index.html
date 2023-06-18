@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="head-container">
+      <div class="title">
+        <h1 id="level-title">Press any key to start the game</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div type="button" class="btn green" id="green"></div>
+          <div type="button" class="btn red" id="red"></div>
+        </div>
+        <div class="row">
+          <div type="button" class="btn yellow" id="yellow"></div>
+          <div type="button" class="btn blue" id="blue"></div>
+        </div>
+      </div>
+    </div>
+    <div class="instruction">
+      <h2 class="ititle">Instructions</h2>
+      <p class="instruct-text"></p>
+      <ul>
+        <li>1. Press any key to start the game. The level will begin at 1.</li>
+
+        <li>2. Remember the sequence of colours shown by the game.</li>
+
+        <li>3. Click the buttons in the same order as the sequence.</li>
+
+        <li>
+          4. If you make a mistake, the game ends. Press any key to restart.
+        </li>
+
+        <li>5. Try to reach the highest level and beat your high score!</li>
+
+        <li><b>Enjoy playing Simon!</b></li>
+      </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
