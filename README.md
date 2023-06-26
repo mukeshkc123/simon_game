@@ -1,7 +1,7 @@
 # Simon Game
 
 This project is a digital implementation of the classic Simon Game, built using HTML, CSS, JavaScript, and the jQuery library. The primary goal of this project is to apply jQuery and gain familiarity with its features and functionalities.
-play the game here: https://simon-game-by-mukesh.onrender.com
+play the game here: https://mukeshkc123.github.io/simon_game/
 
 ## Game Description
 
